@@ -1,0 +1,18 @@
+html {
+  font-family: "Jersey 15", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: black;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-family: "Sedgwick Ave Display", cursive;;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-align: center;
+}
