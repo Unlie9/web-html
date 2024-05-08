@@ -1,0 +1,51 @@
+<!-- #region Head -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<!-- #endregion -->
+<body>
+  <h1>Mate academy</h1>
+
+    <form action="https://webhook.site/a000a856-274d-45b3-8131-7b1f15e30664" method="post">
+      <label class="form-field">
+        <input 
+        type="radio" 
+        name="sex" 
+        value="male">
+        Male
+      </label>
+      <label class="form-field">
+        <input 
+        type="radio" 
+        name="sex" value="female">
+        Female
+      </label>
+      <label for="form-field">
+        Day of week:
+        <select name="weekday" required>
+          <option value="" disabled selected>Please choose a day</option>
+          <option value="mon">Monday</option>
+          <option value="tue">Tuesday</option>
+          <option value="wed">Wednesday</option>
+          <option value="thu">Thursday</option>
+          <option value="fri">Friday</option>
+          <option value="sat">Saturday</option>
+          <option value="sun">Sunday</option>
+        </select>
+      </label>
+      <label class="form-field">
+        <textarea class="textarea"
+        name="decription" 
+        placeholder="Enter some description:"
+        rows="5"
+        cols="20"
+      ></textarea>
+      </label>
+      <button class="button-set" type="sumbit">Send</button>
+    </form>
+</body>

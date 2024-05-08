@@ -1,0 +1,64 @@
+<!-- #region Head -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!-- #endregion -->
+<body>
+  <h1>Mate academy</h1>
+  
+  <form action="https://webhook.site/a000a856-274d-45b3-8131-7b1f15e30664" method="post">
+    <div class="form-field">
+      Username: <br>
+      <input 
+        type="text" 
+        name="username" 
+        placeholder="Enter username"
+        pattern="\w+"
+      >
+    </div>
+    <div class="form-field">
+      Email: <br>
+      <input 
+        type="email"
+        name="email" 
+        placeholder="Enter email"
+      >
+    </div>
+    <div class="form-field">
+      Password: <br>
+      <input 
+        type="password" 
+        name="password" 
+       placeholder="Enter password"
+       required
+       minlength="8"
+       maxlength="20"
+       >
+    </div>
+    <label class="form-field">
+      <input 
+        type="checkbox"
+        name="accepted" 
+        value="yes"
+      >
+      I accept the terms
+    </label>
+    <div class="form-field">
+      <input 
+        id="remember-me"
+        type="checkbox"
+        name="remember" 
+        value="yes"
+      >
+      <label for"remember-me">Remember me</label>
+    </div>
+    <button>Sign up</button>
+    <button type="reset">reset</button>
+  </form>
+</body>
+</html>

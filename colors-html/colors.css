@@ -1,5 +1,18 @@
+@font-face {
+  font-family: Sedgwick;
+  src: url(SedgwickAveDisplay-Regular.ttf)
+}
+@font-face {
+  font-family: Jersey15;
+  src: url(Jersey15-Regular.ttf);
+}
+@font-face {
+  font-family: Anton;
+  src: url(Anton-Regular.ttf);
+}
+
 html {
-  font-family: "Jersey 15", sans-serif;
+  font-family: sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: black;
@@ -7,12 +20,63 @@ html {
 }
 
 h1 {
-  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-family: "Sedgwick Ave Display", cursive;;
+  font-family: Sedgwick;
   text-align: center;
+  background-color: lightcoral;
+  border: 1px solid black;
+  height: 80px;
+  line-height: 80px;
+}
+
+h2 {
+  font-family: Jersey15;
+  font-size: 30px;
+  text-align: justify;
+  text-align: center;
+  font-weight: 200;
+  background-color: lightcoral;
+  color: black;
+  border: 1px solid black;
 }
 
 p {
+  font-family: Anton;
+  text-align: left, justify;
+  font-size: 20px;
+  font-weight: 200;
+  background-color: lightcoral;
+  border: 1px solid black;
+  padding: 10px;
+  max-width: 270px;
+}
+
+p span {
+  display: block;
+  margin-bottom: -20px;
+}
+
+.message {
+  border: 1px solid black;
+  background-color: greenyellow;
   text-align: justify;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.title {
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
   text-align: center;
+
+}
+
+.inline {
+  line-height: 50px;
+   display: inline;
+}
+
+.contaner {
+  max-width: 500px;
+  border-radius: 10px;
 }

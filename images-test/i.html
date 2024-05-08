@@ -1,0 +1,78 @@
+<body>
+  <form 
+    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+    method="post"
+  >
+  <!-- Write your code here -->
+    <fieldset class="fieldset">
+    <legend>Personal information</legend>
+      <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+        />
+      <label for="surname">Surname:</label> 
+        <input
+          type="text"
+          id="surname"
+          name="surname"
+        />      
+      <label for="age">How old are You?</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          min="1"
+          max="100"
+          value="18"
+        />
+      <label for="birthday">Full date of birth:</label>
+        <input
+          type="date"
+          id="birthday"
+          name="birthday"
+        />
+      <label for="accepted">I accept the term of the agreement</label>
+        <input
+        type="checkbox"
+        id="accepted"
+        name="accepted"
+        value="yes"
+        required
+    </fieldset>
+
+    <fieldset class="fieldset">
+    <legend>Account Registration</legend>
+      <label for="email">E-mail:</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          placeholder="email@example.com" 
+          email=""
+          required=""
+        />
+    </fieldset>
+
+    <fieldset class="fieldset">
+      <label for="name"></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+        >
+    </fieldset>
+
+    <fieldset class="fieldset">
+      <label for="name"></label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+        >
+    </fieldset>
+    <button>Sumbit</button>
+  </form>
+</body>
+</html>

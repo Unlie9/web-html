@@ -1,0 +1,16 @@
+a {
+  display: block;
+  padding: 5px 10px;
+  margin: 5px 0;
+  text-decoration: none;
+  background-color: #ccc;
+  color: aqua;
+}
+
+a:hover {
+  background-color: hotpink;
+}
+
+a:active {
+  color: brown;
+}
